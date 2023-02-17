@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/home_view"
+        android:layout_width="321dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="32dp"
+        android:text="Latest State Transition Info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/end_loc" />
+
+    <TextView
+        android:id="@+id/home_view_prev"
+        android:layout_width="323dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="32dp"
+        android:text="Previous State Transition Info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_view" />
+
+    <TextView
+        android:id="@+id/home_view_Pprev"
+        android:layout_width="321dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="32dp"
+        android:text="Previous State Transition Timestamp in Unix epoch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_view_prev" />
+
+    <TextView
+        android:id="@+id/start_loc"
+        android:layout_width="328dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="60dp"
+        android:text="Start Location will be shown here when ready"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/end_loc"
+        android:layout_width="326dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:text="End Location will be shown here when ready"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_loc" />
+
+</android.support.constraint.ConstraintLayout>
