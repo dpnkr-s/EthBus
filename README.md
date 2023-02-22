@@ -47,3 +47,7 @@ User can decide whether to tap a button to initiate payment (shown in the demo v
   + or, enterprise blockchain solutions like HyperLedger suite
 - Improved AI algorithms can be used to correctly predict the user’s presence on the bus without external APIs, which can pose a security risk
   + alternative approach can use a single on board unit (OBU) on the bus which acts as an oracle for blockchain network
+  
+#### Developer
+
+Deepankar Sharma
