@@ -22,11 +22,17 @@ Ethereum blockchain (Rinkeby testnet) is used for transactions, travel data stor
 <img width="600" alt="Screenshot 2023-02-23 at 12 12 04 AM" src="https://user-images.githubusercontent.com/25234772/220771547-dd0b333f-ad9b-4f3c-b44f-345e91f8f97a.jpg">
 
 ### App functionality
+
+(*A bare-bones demo video of EthBus displaying its primary functions can be downloaded [here](/app-basic-demo.mp4)*)
+
 - Create/Link existing Ethereum wallet account to the app
 - Create a new smart contract to register for the service
 - Detect user’s activity state to automatically determine its presence on the bus
 - Trigger transactions on the blockchain to anonymously pay ticket fee and store travel data
 - Cryptocurrency tokens allow for micro-payments, can enable various pay-per-use business models
+
+User can decide whether to tap a button to initiate payment (shown in the demo video) or let the app run in the background making payments automatically and securely after setting it up after installation.
+
 
 *format of user's encrypted travel data stored on blockchain is shown below, this provides functionality while maintaining privacy and anonymity*
 
